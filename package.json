@@ -1,0 +1,28 @@
+{
+  "name": "job-search",
+  "version": "1.0.0",
+  "description": "- Jobs auflisten (Mit der Get-Anfrage werden alle Jobs angezeigt) - Jobs erstellen ( Mit der Post-Anfrage werden neue Jobs hinzugefügt) - Jobs löschen (Vergebene Jobs können gelöscht werden) - Zeitlimit für Jobs - jobsearch-api/",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durseltuerkan/job-search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/durseltuerkan/job-search/issues"
+  },
+  "homepage": "https://github.com/durseltuerkan/job-search#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2",
+    "react-router-dom": "^7.5.0"
+  }
+}
