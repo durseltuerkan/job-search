@@ -1,5 +1,4 @@
-import mongoose from 'mongoose'
-import { Schema } from 'mongoose'
+import { Schema, model } from 'mongoose'
 
 const jobSchema = new Schema ({
     title : {
@@ -11,13 +10,16 @@ const jobSchema = new Schema ({
         required: true
     },
     city: {
-        type: String
+        type: String,
+        required: true
     },
     location: {
-        type: String
+        type: String,
+        required: true
     },
     salary: {
-        type: String
+        type: String,
+        required: true
     }
 }, {timestamps: true});
 
